@@ -1,3 +1,30 @@
+.Game-title{
+    color: azure;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
+}
 .Game-cards{
-    margin-top: 6rem;
+    margin-top: 7rem;
+}
+.subtitle{
+    font-size: 20px;
+}
+
+.Game-btn{
+    outline: none;
+    background: none;
+    font: inherit;
+    padding: 1em 3em;
+    color: #009688;
+    border: 2px solid;
+    margin: .7rem;
+    /* background-color: green;
+    color: honeydew;
+    border-radius: 1rem; */
+}
+.Game-btn:hover{
+    background-color: rgb(38, 80, 38);
+    color: white;
 }

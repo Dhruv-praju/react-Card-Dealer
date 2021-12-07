@@ -22,8 +22,10 @@ class Game extends Component{
     }
     render() {
         return (
-            <div>
-                <button onClick={this.drawCard}>GIMEE A CARD</button>
+            <div className='Game'>
+                <h1 className='Game-title'>&#9830; Card Dealer &#9830;</h1>
+                <h2 className='Game-title subtitle'>&#9830; A little demo made with react &#9830;</h2>
+                <button className='Game-btn' onClick={this.drawCard}>GIMEE A CARD</button>
                 <div className='Game-cards'>
                     {this.showCards()}
                 </div>
